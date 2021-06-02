@@ -10,6 +10,7 @@ class FolderComponent extends React.Component {
             .then(item => {
                 this.setState(item)
             })
+        console.log(githubrepos.getContents("University", ""));
     }
 
     render() {
@@ -21,7 +22,6 @@ class FolderComponent extends React.Component {
             return (
                 <React.Fragment>
                     {Object.entries(this.state).map(([key, value]) => {
-                        console.log(value)
                         return (
                             <React.Fragment>
                                 <div>{value.name}</div>

@@ -13,7 +13,7 @@ class GithubAPIProtected {
     }
 
     async getRepos() {
-        const promise = await fetch("https://api.github.com/users/" + this.user + "/repos", this.methods.GET);
+        const promise = await fetch("https://api.github.com/users/" + this.user + "/repos");
 
         return promise.json();
     }
