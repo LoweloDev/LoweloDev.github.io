@@ -5,9 +5,12 @@ import {
     Route,
     Link,
 } from "react-router-dom";
-import FolderComponent from "./FolderComponent";
+import FolderComponent from "./GitHubAPI/FolderComponent";
 import AboutMe from "./AboutMe";
+import TestComponent from "./TestComponent";
 
+//TODO proper routing and navigation (via history e.g.)
+// TODO cleaning up codebase and implementing the rest of basic UI
 function App() {
     return (
         <div className="App">
@@ -15,6 +18,7 @@ function App() {
                 <div className="testClass">
                 <Link to="/about">About Me</Link>
                 <Link to="/studenthub">StudentHub</Link>
+                <Link to="/TestComponent">TescComponent</Link>
                 </div>
                 <Switch>
                     <Route path="/about">
@@ -22,6 +26,9 @@ function App() {
                     </Route>
                     <Route path="/studenthub">
                         <FolderComponent/>
+                    </Route>
+                    <Route path="/TestComponent">
+                        <TestComponent />
                     </Route>
                 </Switch>
             </Router>
