@@ -3,7 +3,10 @@ class GithubAPIProtected {
     auth = {Authorization: ""};
     methods = {
         GET: {
-            method: "GET"
+            method: "GET",
+        },
+        POST: {
+            method: "POST",
         }
     }
 

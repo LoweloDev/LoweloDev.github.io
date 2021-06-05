@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
+import './construction.css';
 import React from 'react';
 
 class AboutMe extends React.Component {
     render() {
         return (
-            <header className="App-header">
+            <div className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Nothing here yet. Under construction.
@@ -17,7 +18,7 @@ class AboutMe extends React.Component {
                 >
                     Link to my GitHub
                 </a>
-            </header>
+            </div>
         );
     }
 }
