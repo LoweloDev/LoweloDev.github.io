@@ -10,16 +10,13 @@ const styles = ({
     }
 })
 
-class NavBar extends React.Component {
-    handleTabChange = (event, value) => {
-        this.props.history.push(value);
-    }
+class NavBarComponent extends React.Component {
 
     render() {
         const {classes} = this.props;
         return (
             <AppBar className={classes.navbar} position="fixed">
-                <Tabs value={this.props.location.pathname} onChange={this.handleTabChange}>
+                <Tabs value={this.props.location.pathname} >
                     <Tab label="About Me" component={RouterLink} to="/about" value="/about"/>
                     <Tab label="Student Hub" component={RouterLink} to="/studenthub" value="/studenthub"/>
                 </Tabs>
@@ -28,4 +25,4 @@ class NavBar extends React.Component {
     }
 }
 
-export default withRouter((withStyles(styles)(NavBar)));
+export default withRouter((withStyles(styles)(NavBarComponent)));

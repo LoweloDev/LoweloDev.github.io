@@ -1,11 +1,12 @@
 import React from "react";
 import DirectoryComponent from "./DirectoryComponent";
-import RepoAPI from "./RepoAPI";
+import Repository from "./Repository";
 
 class FileManagerComponent extends React.Component {
 
-    componentWillMount() {
-        const git = new RepoAPI("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", "LoweloDev");
+    constructor(props) {
+        super(props);
+        const git = new Repository("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", "LoweloDev");
 
         git.getFoldersWithChild("University", "")
             .then(item => {

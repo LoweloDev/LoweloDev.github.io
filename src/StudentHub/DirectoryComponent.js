@@ -8,18 +8,23 @@ import {IconButton, ListItemSecondaryAction} from "@material-ui/core";
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import {Link as RouterLink, withRouter} from "react-router-dom";
 
-
 class DirectoryComponent extends React.Component {
 
-    componentWillMount() {
-        this.setState(this.props.state);
+    constructor(props) {
+        super(props);
+        this.state = props.state;
+        console.log(this.props)
+    }
+
+    openFolder(jsonObj, entryName) {
+        this.setState(jsonObj[entryName] && jsonObj[entryName].child);
     }
 
     generateListItems(jsonObj) {
         return Object.entries(jsonObj).map(([key, value]) => {
             return (
-                <ListItem button onClick={() => this.setState(jsonObj[value.name] && jsonObj[value.name].child)}
-                          component={RouterLink} to={this.props.location.pathname + "/" + value.name}>
+                <ListItem button onClick={() => this.openFolder(this.state, key)}
+                          component={RouterLink} to={ `${this.props.location.pathname}/${value.name}`}>
                     <ListItemIcon>
                         {(value.type === "dir") && <FolderIcon/>}
                     </ListItemIcon>

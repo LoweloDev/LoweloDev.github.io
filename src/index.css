@@ -4,7 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background: #eceff1;
   /* TODO REMOVE USE CSS GRID */
   margin: calc((6.759vh / 2) + 3vw) 0 0;
 }

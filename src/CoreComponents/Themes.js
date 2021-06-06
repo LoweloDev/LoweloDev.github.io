@@ -31,8 +31,8 @@ export const darkTheme = createMuiTheme({
         MuiTab: {
             root: {
                 color: "#eceff1",
-                transition: "all 0.25s ease-in",
-                "&:focus": {
+                transition: "all 0.2s ease-in-out",
+                "&:hover": {
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     background: "-webkit-linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)"
