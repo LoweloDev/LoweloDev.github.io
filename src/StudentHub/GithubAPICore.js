@@ -4,11 +4,11 @@ class GithubAPICore {
     methods = {
         GET: {
             method: "GET",
-            headers: this.auth
+
         },
         POST: {
             method: "POST",
-            headers: this.auth
+
         }
     }
 

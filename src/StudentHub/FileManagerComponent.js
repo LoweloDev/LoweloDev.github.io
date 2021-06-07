@@ -6,7 +6,7 @@ class FileManagerComponent extends React.Component {
 
     constructor(props) {
         super(props);
-        const git = new Repository("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", "LoweloDev");
+        const git = new Repository("", "LoweloDev");
 
         git.getFoldersWithChild("University", "")
             .then(item => {

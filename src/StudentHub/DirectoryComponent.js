@@ -8,7 +8,6 @@ import {IconButton, ListItemSecondaryAction} from "@material-ui/core";
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import {withRouter} from "react-router-dom";
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import {Grow} from "@material-ui/core";
 
 class DirectoryComponent extends React.Component {
     didMount = false;
