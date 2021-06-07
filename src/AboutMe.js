@@ -8,7 +8,7 @@ class AboutMe extends React.Component {
             <div className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
-                    Nothing here yet. Under construction.
+                    Under construction. A noob dev trying to build a somewhat useful app.
                 </p>
                 <a
                     className="App-link"
