@@ -14,7 +14,6 @@ class Repository extends GithubAPICore {
 
     async getFoldersWithChild(repository, path) {
         let folders = await this.getContents(repository, path);
-        console.log(folders)
         folders = await Promise.all(folders.map(async item => {
             if (item.type === "dir")
                 return new Folder(item.name, item.type, item.html_url, `https://download-directory.github.io/?url=${item.html_url}`, await this.getFolders(repository, item.name))

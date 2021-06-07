@@ -5,11 +5,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #eceff1;
-  /* TODO REMOVE USE CSS GRID */
+  /* TODO use local styles/theming */
   margin: calc((6.759vh / 2) + 3vw) 0 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* TODO use local styles/theming */
+.MuiListItemSecondaryAction-root a.MuiIconButton-colorPrimary {
+  transition: all 0.2s ease-in-out;
+}
+.MuiListItemSecondaryAction-root a.MuiIconButton-colorPrimary:hover{
+  color: #eceff1;
+  background: #272c34;
 }

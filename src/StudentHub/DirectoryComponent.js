@@ -6,31 +6,38 @@ import ListItemText from '@material-ui/core/ListItemText';
 import FolderIcon from '@material-ui/icons/Folder';
 import {IconButton, ListItemSecondaryAction} from "@material-ui/core";
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
-import {Link as RouterLink, withRouter} from "react-router-dom";
+import {withRouter} from "react-router-dom";
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import {Grow} from "@material-ui/core";
 
 class DirectoryComponent extends React.Component {
-
+    didMount = false;
     constructor(props) {
         super(props);
-        this.state = props.state;
-        console.log(this.props)
+        this.state = {
+            state: props.state,
+            depth: 0
+        };
     }
 
     openFolder(jsonObj, entryName) {
-        this.setState(jsonObj[entryName] && jsonObj[entryName].child);
+        this.setState({
+            state: jsonObj[entryName].child,
+            depth: this.state.depth + 1
+        });
     }
 
     generateListItems(jsonObj) {
+        const color = "primary";
         return Object.entries(jsonObj).map(([key, value]) => {
             return (
-                <ListItem button onClick={() => this.openFolder(this.state, key)}
-                          component={RouterLink} to={ `${this.props.location.pathname}/${value.name}`}>
+                <ListItem button onClick={() => jsonObj[value.name] && this.openFolder(jsonObj, key)}>
                     <ListItemIcon>
-                        {(value.type === "dir") && <FolderIcon/>}
+                        {(value.type === "dir") && <FolderIcon color={color}/>}
                     </ListItemIcon>
-                    <ListItemText primary={value.name} secondary={(value.type !== "dir") && value.type}/>
+                    <ListItemText color={color} primary={value.name} secondary={(value.type !== "dir") && value.type}/>
                     <ListItemSecondaryAction>
-                        <IconButton href={value.download_url}>
+                        <IconButton color={color} href={value.download_url}>
                             <CloudDownloadIcon/>
                         </IconButton>
                     </ListItemSecondaryAction>
@@ -42,7 +49,16 @@ class DirectoryComponent extends React.Component {
     render() {
         return (
             <List>
-                {this.generateListItems(this.state)}
+                {this.state.depth > 0 &&
+                <ListItem button onClick={() => this.setState({
+                    state: this.props.state,
+                    depth: this.state.depth - 1
+                })}>
+                    <ListItemIcon>
+                    <ArrowBackIcon color={"primary"}/>
+                    </ListItemIcon>
+                </ListItem>}
+                {this.generateListItems(this.state.state)}
             </List>
         );
     }

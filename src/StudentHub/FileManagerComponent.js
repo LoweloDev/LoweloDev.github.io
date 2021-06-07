@@ -6,7 +6,7 @@ class FileManagerComponent extends React.Component {
 
     constructor(props) {
         super(props);
-        const git = new Repository("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", "LoweloDev");
+        const git = new Repository("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", "LoweloDev");
 
         git.getFoldersWithChild("University", "")
             .then(item => {
@@ -20,7 +20,7 @@ class FileManagerComponent extends React.Component {
             <DirectoryComponent state={this.state}/>
         );
         } else {
-            return <div>Loading ...</div>
+            return <div>Loading ... / Github API Limit reached</div>
         }
     }
 }
