@@ -4,11 +4,9 @@ class GithubAPICore {
     methods = {
         GET: {
             method: "GET",
-
         },
         POST: {
             method: "POST",
-
         }
     }
 
