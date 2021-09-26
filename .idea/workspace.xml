@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02765326-4234-4afd-888d-2abb1ea20dca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lowelodev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreComponents/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreComponents/AppComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreComponents/NavBarComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreComponents/Routing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreComponents/Themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentHub/DirectoryComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentHub/FileManagerComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentHub/Folder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentHub/GithubAPICore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentHub/Repository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/construction.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1u7Z8EJzYVgBvHobBl3Y5tKlLn6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../University/Semester2/AlgorithmenUndDatenstrukturen/aud-uebung06-Binarytrees" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02765326-4234-4afd-888d-2abb1ea20dca" name="Default Changelist" comment="" />
+      <created>1624018427577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624018427577</updated>
+      <workItem from="1624018429063" duration="210000" />
+      <workItem from="1624018712515" duration="260000" />
+      <workItem from="1624020128584" duration="538000" />
+      <workItem from="1624020680010" duration="58000" />
+      <workItem from="1624020756311" duration="258000" />
+      <workItem from="1624021027127" duration="189000" />
+      <workItem from="1624021227833" duration="50000" />
+      <workItem from="1624021289278" duration="24000" />
+      <workItem from="1624021325845" duration="51000" />
+      <workItem from="1624021389420" duration="252000" />
+      <workItem from="1624021655248" duration="721000" />
+      <workItem from="1624022390001" duration="56000" />
+      <workItem from="1624022459763" duration="82000" />
+      <workItem from="1624022562801" duration="36000" />
+      <workItem from="1624022612067" duration="75000" />
+      <workItem from="1624022700542" duration="165000" />
+      <workItem from="1624022879201" duration="414000" />
+      <workItem from="1624023311072" duration="366000" />
+      <workItem from="1624023691844" duration="1124000" />
+      <workItem from="1624033673275" duration="1280000" />
+      <workItem from="1626360668699" duration="637000" />
+      <workItem from="1626606667914" duration="788000" />
+      <workItem from="1626699732419" duration="1283000" />
+      <workItem from="1631898014357" duration="3888000" />
+      <workItem from="1631984750251" duration="599000" />
+      <workItem from="1632050359896" duration="598000" />
+      <workItem from="1632138399661" duration="599000" />
+      <workItem from="1632147189457" duration="599000" />
+      <workItem from="1632299517416" duration="1199000" />
+      <workItem from="1632388270368" duration="4049000" />
+      <workItem from="1632476762039" duration="2514000" />
+      <workItem from="1632514151918" duration="599000" />
+      <workItem from="1632519368721" duration="63000" />
+      <workItem from="1632519448967" duration="599000" />
+      <workItem from="1632566792665" duration="1222000" />
+      <workItem from="1632583992655" duration="599000" />
+      <workItem from="1632600517226" duration="599000" />
+      <workItem from="1632651984101" duration="1227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
