@@ -25,4 +25,5 @@ yarn-error.log*
 #custom
 
 /Backend/target
-Backend/src/main/java/com/studenthub/data/consts/GithubAuth.java
+
+/Backend/src/main/java/com/studenthub/data/consts/GithubAuth.java
