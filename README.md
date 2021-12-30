@@ -1,5 +1,3 @@
-# Sandbox/Playground(ReactJs & Spring Boot).
-### Die Nachfolgende Anwendung ist nicht für Zuschauer geeignet
- Backend disconnected from Frontend. Was supposed to become simple github client for students(of almost any age and education level) to collaborate.
+# Sandbox/Playground(ReactJs & Spring Boot & Spring Data JPA + H2 Database & REST Api Endpoints)
 
-(At least) temporarily discontinued due to potentially similar but expanded usecase in private repo.
+Frontend also fetches DB structure from Github just like the backend since it served as a React.js sandbox before backend even existed. Hence this is a disconnected mess and I was in the process of tidying it up and replicating backend functionality in the respective backend when a potentailly similar but expanded usecase came up, which is currently in private repo and will be done cleanly via Quarkus, RestEasy Reactive, Hibernate ORM Reactive, PostgreSQL Reactive and Websockets, together with a React.js frontend.
