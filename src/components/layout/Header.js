@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to={{ pathname: "https://github.com/LoweloDev/CalorieCounter-by-Anti-Bloat-Concise-Apps/blob/main/Documentation.md" }} target="_blank" onClick={closeMenu}>Documentation</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to={{ pathname: "https://www.paypal.com/donate/?hosted_button_id=49FYWEP529NH6" }} target="_blank" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Support us</Link>
                       </li>
                     </ul>}
                 </div>

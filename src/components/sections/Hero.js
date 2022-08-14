@@ -61,18 +61,18 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              Calorie Counter by <br /> <span className="text-color-primary">Anti-Bloat: Concise Apps</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Annoyed by bloated apps that do anything but simply serve your use-case? We are developing solutions for you in health & fitness and education.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/LoweloDev/CalorieCounter-by-Anti-Bloat-Concise-Apps">
                     View on Github
                     </Button>
                 </ButtonGroup>
@@ -85,10 +85,11 @@ const Hero = ({
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
+              style={{pointerEvents: "none"}}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/vidplaceholder.png')}
                 alt="Hero"
                 width={896}
                 height={504} />
