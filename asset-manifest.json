@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.7634af82.chunk.css",
-    "main.js": "/static/js/main.1a7922d1.chunk.js",
-    "main.js.map": "/static/js/main.1a7922d1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d9069b22.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d9069b22.js.map",
-    "static/js/2.2f31f3b4.chunk.js": "/static/js/2.2f31f3b4.chunk.js",
-    "static/js/2.2f31f3b4.chunk.js.map": "/static/js/2.2f31f3b4.chunk.js.map",
-    "static/js/3.91256587.chunk.js": "/static/js/3.91256587.chunk.js",
-    "static/js/3.91256587.chunk.js.map": "/static/js/3.91256587.chunk.js.map",
+    "main.css": "/static/css/main.773ec729.chunk.css",
+    "main.js": "/static/js/main.f46f89cf.chunk.js",
+    "main.js.map": "/static/js/main.f46f89cf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.01c6a616.js",
+    "runtime-main.js.map": "/static/js/runtime-main.01c6a616.js.map",
+    "static/js/2.a1741099.chunk.js": "/static/js/2.a1741099.chunk.js",
+    "static/js/2.a1741099.chunk.js.map": "/static/js/2.a1741099.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7634af82.chunk.css.map": "/static/css/main.7634af82.chunk.css.map",
-    "static/js/2.2f31f3b4.chunk.js.LICENSE.txt": "/static/js/2.2f31f3b4.chunk.js.LICENSE.txt",
-    "static/media/logo.e0e11fe0.svg": "/static/media/logo.e0e11fe0.svg"
+    "precache-manifest.440f616eb99b2aa013eb4ffef74995eb.js": "/precache-manifest.440f616eb99b2aa013eb4ffef74995eb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.773ec729.chunk.css.map": "/static/css/main.773ec729.chunk.css.map",
+    "static/js/2.a1741099.chunk.js.LICENSE.txt": "/static/js/2.a1741099.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.278054f6.svg",
+    "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.0b92e6a4.svg",
+    "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.599c18bb.svg",
+    "static/media/features-split-image-01.png": "/static/media/features-split-image-01.d9cb99ce.png",
+    "static/media/features-split-image-02.png": "/static/media/features-split-image-02.3c569239.png",
+    "static/media/features-split-image-03.png": "/static/media/features-split-image-03.87e4d053.png",
+    "static/media/logo.svg": "/static/media/logo.f1d09cd1.svg",
+    "static/media/vidplaceholder.png": "/static/media/vidplaceholder.f52ea3d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9069b22.js",
-    "static/js/2.2f31f3b4.chunk.js",
-    "static/css/main.7634af82.chunk.css",
-    "static/js/main.1a7922d1.chunk.js"
+    "static/js/runtime-main.01c6a616.js",
+    "static/js/2.a1741099.chunk.js",
+    "static/css/main.773ec729.chunk.css",
+    "static/js/main.f46f89cf.chunk.js"
   ]
 }
